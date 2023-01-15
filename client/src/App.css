@@ -45,7 +45,7 @@
 
 
 input[type="text"] {
-    width: 45%;
+    width: 15%;
     background-color: #ffffff;
     color: rgb(46, 46, 46);
     padding: 6px 20px;
@@ -53,6 +53,19 @@ input[type="text"] {
     border: none;
     border-radius: 0px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+input[type="text"] {
+  width: 45%;
+  background-color: #ffffff;
+  color: rgb(46, 46, 46);
+  padding: 6px 20px;
+  margin: 1px 0;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
 }
 
 @keyframes App-logo-spin {
